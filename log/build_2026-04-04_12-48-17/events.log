@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.000322] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[0.010838] (test_pkg) JobProgress: {'identifier': 'test_pkg', 'progress': 'cmake'}
+[0.011836] (test_pkg) JobProgress: {'identifier': 'test_pkg', 'progress': 'build'}
+[0.012796] (test_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/workspace/ros2_project/auto_car/build/test_pkg', '--', '-j8', '-l8'], 'cwd': '/home/alex/workspace/ros2_project/auto_car/build/test_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('SSH_CLIENT', '192.168.11.1 50416 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/workspace/ros2_project/auto_car/test_pkg'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/alex/workspace/ros2_project/auto_car/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/alex/workspace/ros2_project/auto_car/install/test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/alex/workspace/ros2_project/auto_car/build/test_pkg'), ('SSH_CONNECTION', '192.168.11.1 50416 192.168.11.131 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alex/workspace/ros2_project/auto_car/install/test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.070453] (test_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target testnode_name\x1b[0m\n'}
+[0.089020] (test_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testnode_name.dir/src/mynode.cpp.o\x1b[0m\n'}
+[0.099234] (-) TimerEvent: {}
+[0.200059] (-) TimerEvent: {}
+[0.300811] (-) TimerEvent: {}
+[0.306943] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:34:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.307230] (test_pkg) StderrLine: {'line': b'   34 |     \x1b[01;35m\x1b[K/\x1b[m\x1b[K/ make_share <-> make_shared pointer, this fcn call\\\n'}
+[0.307350] (test_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.401081] (-) TimerEvent: {}
+[0.501836] (-) TimerEvent: {}
+[0.602594] (-) TimerEvent: {}
+[0.703362] (-) TimerEvent: {}
+[0.804125] (-) TimerEvent: {}
+[0.904878] (-) TimerEvent: {}
+[1.005664] (-) TimerEvent: {}
+[1.106396] (-) TimerEvent: {}
+[1.207166] (-) TimerEvent: {}
+[1.307936] (-) TimerEvent: {}
+[1.408679] (-) TimerEvent: {}
+[1.509455] (-) TimerEvent: {}
+[1.610170] (-) TimerEvent: {}
+[1.710970] (-) TimerEvent: {}
+[1.811750] (-) TimerEvent: {}
+[1.912478] (-) TimerEvent: {}
+[2.013234] (-) TimerEvent: {}
+[2.114003] (-) TimerEvent: {}
+[2.214826] (-) TimerEvent: {}
+[2.315530] (-) TimerEvent: {}
+[2.416300] (-) TimerEvent: {}
+[2.517035] (-) TimerEvent: {}
+[2.617796] (-) TimerEvent: {}
+[2.718562] (-) TimerEvent: {}
+[2.819312] (-) TimerEvent: {}
+[2.920072] (-) TimerEvent: {}
+[3.020831] (-) TimerEvent: {}
+[3.121598] (-) TimerEvent: {}
+[3.152403] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMytestNode::MytestNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.152721] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmiliseconds\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmilliseconds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.152807] (test_pkg) StderrLine: {'line': b'   16 |                 chrono::\x1b[01;31m\x1b[Kmiliseconds\x1b[m\x1b[K(TIMER_TIMEOUT);\n'}
+[3.152873] (test_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.152933] (test_pkg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kmilliseconds\x1b[m\x1b[K\n'}
+[3.152993] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:4:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.153182] (test_pkg) StderrLine: {'line': b'    4 | #define TIMER_TIMEOUT 1000\x1b[01;31m\x1b[K;\x1b[m\x1b[K //1s\n'}
+[3.153299] (test_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.153404] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTIMER_TIMEOUT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.153503] (test_pkg) StderrLine: {'line': b'   16 |                 chrono::miliseconds(\x1b[01;36m\x1b[KTIMER_TIMEOUT\x1b[m\x1b[K);\n'}
+[3.153760] (test_pkg) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.153839] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.153892] (test_pkg) StderrLine: {'line': b'   16 |                 chrono::miliseconds\x1b[01;36m\x1b[K(\x1b[m\x1b[KTIMER_TIMEOUT);\n'}
+[3.153932] (test_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.153975] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.154037] (test_pkg) StderrLine: {'line': b'   16 |                 chrono::miliseconds(TIMER_TIMEOUT\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.154099] (test_pkg) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.154138] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:19:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MytestNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.154177] (test_pkg) StderrLine: {'line': b'   19 |                 bind(\x1b[01;31m\x1b[KMytestNode::timer_callback\x1b[m\x1b[K, this);\n'}
+[3.154214] (test_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154251] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:24:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.154287] (test_pkg) StderrLine: {'line': b'   24 |         void \x1b[01;36m\x1b[Ktimer_callback\x1b[m\x1b[K() {\n'}
+[3.154323] (test_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154362] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.154399] (test_pkg) StderrLine: {'line': b'   20 |             \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[3.154434] (test_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.154470] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.154506] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:36:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemporary of non-literal type \xe2\x80\x98\x1b[01m\x1b[KMytestNode\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[3.154542] (test_pkg) StderrLine: {'line': b'   36 |     rclcpp::spin(make_shared<\x1b[01;31m\x1b[KMytestNode()\x1b[m\x1b[K);\n'}
+[3.154622] (test_pkg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154670] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMytestNode\x1b[m\x1b[K\xe2\x80\x99 is not literal because:\n'}
+[3.154710] (test_pkg) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KMytestNode\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[3.154746] (test_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154786] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KMytestNode\x1b[m\x1b[K\xe2\x80\x99 has a non-trivial destructor\n'}
+[3.154824] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:36:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.154870] (test_pkg) StderrLine: {'line': b'   36 |     rclcpp::spin(\x1b[01;31m\x1b[Kmake_shared<MytestNode()\x1b[m\x1b[K);\n'}
+[3.154907] (test_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154950] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:36:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(<unresolved overloaded function type>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.154994] (test_pkg) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Krclcpp::spin(make_shared<MytestNode())\x1b[m\x1b[K;\n'}
+[3.155032] (test_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.155089] (test_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.155131] (test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:1\x1b[m\x1b[K:\n'}
+[3.155168] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.155206] (test_pkg) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.155242] (test_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.155277] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.155316] (test_pkg) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.155351] (test_pkg) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.155387] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.155422] (test_pkg) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.155458] (test_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.155493] (test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.155531] (test_pkg) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.155602] (test_pkg) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.222265] (-) TimerEvent: {}
+[3.323153] (-) TimerEvent: {}
+[3.423923] (-) TimerEvent: {}
+[3.524638] (-) TimerEvent: {}
+[3.625408] (-) TimerEvent: {}
+[3.627209] (test_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/testnode_name.dir/build.make:76: CMakeFiles/testnode_name.dir/src/mynode.cpp.o] Error 1\n'}
+[3.627676] (test_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testnode_name.dir/all] Error 2\n'}
+[3.628056] (test_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.631525] (test_pkg) CommandEnded: {'returncode': 2}
+[3.647353] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 2}
+[3.648626] (-) EventReactorShutdown: {}

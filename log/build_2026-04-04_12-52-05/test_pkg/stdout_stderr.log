@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target testnode_name[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/testnode_name.dir/src/mynode.cpp.o[0m
+[01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:34:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+   34 |     [01;35m[K/[m[K/ make_share <-> make_shared pointer, this fcn call\
+      |     [01;35m[K^[m[K
+[01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:[m[K In constructor ‘[01m[KMytestNode::MytestNode()[m[K’:
+[01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   16 |                 chrono::milliseconds(TIMER_TIMEOUT)[01;31m[K;[m[K
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:15:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   15 |             timer_ = this->create_wall_timer[01;36m[K([m[K
+      |                                             [01;36m[K^[m[K
+[01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:20:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   20 |             [01;31m[K)[m[K
+      |             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/testnode_name.dir/build.make:76: CMakeFiles/testnode_name.dir/src/mynode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testnode_name.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
+Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8

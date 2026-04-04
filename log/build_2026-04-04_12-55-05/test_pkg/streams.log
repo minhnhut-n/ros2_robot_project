@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target testnode_name[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/testnode_name.dir/src/mynode.cpp.o[0m
+[2.670s] [100%] [32m[1mLinking CXX executable testnode_name[0m
+[2.780s] [100%] Built target testnode_name
+[2.791s] Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
+[2.801s] Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alex/workspace/ros2_project/auto_car/build/test_pkg
+[2.808s] -- Install configuration: ""
+[2.808s] -- Installing: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/lib/test_pkg/testnode_name
+[2.809s] -- Set runtime path of "/home/alex/workspace/ros2_project/auto_car/install/test_pkg/lib/test_pkg/testnode_name" to ""
+[2.809s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/ament_index/resource_index/package_run_dependencies/test_pkg
+[2.809s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/ament_index/resource_index/parent_prefix_path/test_pkg
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/environment/ament_prefix_path.sh
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/environment/ament_prefix_path.dsv
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/environment/path.sh
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/environment/path.dsv
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/local_setup.bash
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/local_setup.sh
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/local_setup.zsh
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/local_setup.dsv
+[2.810s] -- Installing: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/package.dsv
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/cmake/test_pkgConfig.cmake
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/cmake/test_pkgConfig-version.cmake
+[2.810s] -- Up-to-date: /home/alex/workspace/ros2_project/auto_car/install/test_pkg/share/test_pkg/package.xml
+[2.812s] Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alex/workspace/ros2_project/auto_car/build/test_pkg

@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target testnode_name[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/testnode_name.dir/src/mynode.cpp.o[0m
+[0.287s] [01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:34:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+[0.287s]    34 |     [01;35m[K/[m[K/ make_share <-> make_shared pointer, this fcn call\
+[0.287s]       |     [01;35m[K^[m[K
+[2.040s] [01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:[m[K In constructor ‘[01m[KMytestNode::MytestNode()[m[K’:
+[2.040s] [01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:16:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.040s]    16 |                 chrono::milliseconds(TIMER_TIMEOUT)[01;31m[K;[m[K
+[2.040s]       |                                                    [01;31m[K^[m[K
+[2.040s] [01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:15:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.040s]    15 |             timer_ = this->create_wall_timer[01;36m[K([m[K
+[2.040s]       |                                             [01;36m[K^[m[K
+[2.043s] [01m[K/home/alex/workspace/ros2_project/auto_car/test_pkg/src/mynode.cpp:20:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.043s]    20 |             [01;31m[K)[m[K
+[2.043s]       |             [01;31m[K^[m[K
+[2.419s] gmake[2]: *** [CMakeFiles/testnode_name.dir/build.make:76: CMakeFiles/testnode_name.dir/src/mynode.cpp.o] Error 1
+[2.419s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testnode_name.dir/all] Error 2
+[2.419s] gmake: *** [Makefile:146: all] Error 2
+[2.423s] Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8

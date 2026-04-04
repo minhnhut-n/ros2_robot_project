@@ -1,0 +1,2 @@
+Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/workspace/ros2_project/auto_car/test_pkg -DCMAKE_INSTALL_PREFIX=/home/alex/workspace/ros2_project/auto_car/install/test_pkg
+Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/workspace/ros2_project/auto_car/test_pkg -DCMAKE_INSTALL_PREFIX=/home/alex/workspace/ros2_project/auto_car/install/test_pkg
