@@ -23,8 +23,13 @@ ament_target_dependencies(testnode_name rclcpp)
 install(TARGETS testnode_name DESTINATION lib/${PROJECT_NAME})
 
 #node for testing write a publisher
-add_executable(publisher_ex src/publisher.cpp)
-ament_target_dependencies(publisher_ex rclcpp std_msgs)
-install(TARGETS publisher_ex DESTINATION lib/${PROJECT_NAME})
+add_executable(publish_node src/publisher.cpp)
+ament_target_dependencies(publish_node rclcpp std_msgs)
+install(TARGETS publish_node DESTINATION lib/${PROJECT_NAME})
+
+#node for testing write a subcription
+add_executable(subscriber_node src/subcriber.cpp)
+ament_target_dependencies(subscriber_node rclcpp std_msgs)
+install(TARGETS subscriber_node DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
