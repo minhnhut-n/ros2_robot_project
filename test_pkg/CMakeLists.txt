@@ -33,10 +33,10 @@ ament_target_dependencies(subscriber_node rclcpp std_msgs)
 install(TARGETS subscriber_node DESTINATION lib/${PROJECT_NAME})
 
 #for services
-find_package(my_custom_interfaces REQUIRED)
+find_package(my_custom_service_interface REQUIRED)
 add_executable(calculator_server src/service_server.cpp)
 ament_target_dependencies(calculator_server rclcpp
-                                            my_custom_interfaces)
+                                            my_custom_service_interface)
 install(TARGETS calculator_server DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

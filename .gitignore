@@ -2,7 +2,7 @@
 /install/*
 log/*
 
-my_custom_interfaces/build/*
-my_custom_interfaces/install/*
-my_custom_interfaces/log/*
+my_custom_service_interface/build/*
+my_custom_service_interface/install/*
+my_custom_service_interface/log/*
 

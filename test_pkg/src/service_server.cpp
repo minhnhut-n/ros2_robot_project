@@ -1,25 +1,25 @@
 #include "rclcpp/rclcpp.hpp"
-#include "my_custom_interfaces/srv/calculator.hpp"
+#include "my_custom_service_interface/srv/calculator.hpp"
 
 class CalculatorServer : public rclcpp::Node
 {
-    rclcpp::Service<my_custom_interfaces::srv::Calculator>::SharedPtr service_;
+    rclcpp::Service<my_custom_service_interface::srv::Calculator>::SharedPtr service_;
     public:
         CalculatorServer() : Node("calculator_server")
         {
             //https://docs.ros2.org/foxy/api/rclcpp/classrclcpp_1_1Node.html
             //rclcpp::Service< ServiceT >::SharedPtr 	create_service (const std::string &service_name, CallbackT &&callback
-            service_ = this->create_service<my_custom_interfaces::srv::Calculator>("calculator",
-                [this] (const std::shared_ptr<my_custom_interfaces::srv::Calculator::Request> req,
-                        std::shared_ptr<my_custom_interfaces::srv::Calculator::Response> res) {
+            service_ = this->create_service<my_custom_service_interface::srv::Calculator>("calculator",
+                [this] (const std::shared_ptr<my_custom_service_interface::srv::Calculator::Request> req,
+                        std::shared_ptr<my_custom_service_interface::srv::Calculator::Response> res) {
                             this->handle_request(req, res);
                         }
                     );
         }
 
     private:
-        void handle_request(const std::shared_ptr<my_custom_interfaces::srv::Calculator::Request> req,
-                            std::shared_ptr<my_custom_interfaces::srv::Calculator::Response> res)
+        void handle_request(const std::shared_ptr<my_custom_service_interface::srv::Calculator::Request> req,
+                            std::shared_ptr<my_custom_service_interface::srv::Calculator::Response> res)
         {
             if (req->operation == "add")
             {
