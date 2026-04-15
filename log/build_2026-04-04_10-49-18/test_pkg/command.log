@@ -1,6 +1,0 @@
-Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/workspace/ros2_project/auto_car/test_pkg -DCMAKE_INSTALL_PREFIX=/home/alex/workspace/ros2_project/auto_car/install/test_pkg
-Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/workspace/ros2_project/auto_car/test_pkg -DCMAKE_INSTALL_PREFIX=/home/alex/workspace/ros2_project/auto_car/install/test_pkg
-Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
-Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/workspace/ros2_project/auto_car/build/test_pkg -- -j8 -l8
-Invoking command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/workspace/ros2_project/auto_car/build/test_pkg
-Invoked command in '/home/alex/workspace/ros2_project/auto_car/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/workspace/ros2_project/auto_car/build/test_pkg

@@ -1,0 +1,6 @@
+{
+  "package_name": "my_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/alex/workspace/ros2_project/auto_car/my_custom_interfaces:srv/Calculator.srv"
+  ]
+}
