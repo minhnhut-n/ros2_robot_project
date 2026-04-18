@@ -54,4 +54,12 @@ ament_target_dependencies(action_counter_server rclcpp
                                                 my_custom_action_interface)
 install(TARGETS action_counter_server DESTINATION lib/${PROJECT_NAME})
 
+#client-action
+# find_package(rclcpp_action REQUIRED)
+add_executable(action_client_count src/action_client.cpp)
+ament_target_dependencies(action_client_count rclcpp
+                                              rclcpp_action
+                                              my_custom_action_interface)
+install(TARGETS action_client_count DESTINATION lib/${PROJECT_NAME})
+
 ament_package()
