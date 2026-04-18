@@ -1,6 +1,0 @@
-{
-  "package_name": "my_custom_action_interface",
-  "non_idl_tuples": [
-    "/home/alex/workspace/ros2_project/for_learn/my_custom_action_interface:action/Counter.action"
-  ]
-}

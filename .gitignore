@@ -1,8 +1,11 @@
-/build/*
-/install/*
+build/*
+install/*
 log/*
 
 my_custom_service_interface/build/*
 my_custom_service_interface/install/*
 my_custom_service_interface/log/*
 
+my_custom_action_interface/build/*
+my_custom_action_interface/install/*
+my_custom_action_interface/log/*
