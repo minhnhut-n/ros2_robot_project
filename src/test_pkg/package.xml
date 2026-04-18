@@ -12,6 +12,7 @@
   <depend>rclcpp</depend>
   <depend>my_custom_service_interface</depend>
   <depend>my_custom_action_interface</depend>
+  <depend>client_services</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

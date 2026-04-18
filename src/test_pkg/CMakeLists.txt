@@ -39,6 +39,12 @@ ament_target_dependencies(service_calculator_server rclcpp
                                                     my_custom_service_interface)
 install(TARGETS service_calculator_server DESTINATION lib/${PROJECT_NAME})
 
+#client-services
+add_executable(service_calculator_client src/service_client.cpp)
+ament_target_dependencies(service_calculator_client rclcpp
+                                                    my_custom_service_interface)
+install(TARGETS service_calculator_client DESTINATION lib/${PROJECT_NAME})
+
 #for actions
 find_package(rclcpp_action REQUIRED)
 find_package(my_custom_action_interface REQUIRED)
